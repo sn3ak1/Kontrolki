@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kontrolki", "Kontrolki\Kontrolki.csproj", "{D79770E2-D446-455E-98B4-FBF6AB1AC0D9}"
+	ProjectSection(ProjectDependencies) = postProject
+		{80E78B65-3E51-4B5E-9CF1-9F491EF8772F} = {80E78B65-3E51-4B5E-9CF1-9F491EF8772F}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scheduler", "Scheduler\Scheduler.csproj", "{80E78B65-3E51-4B5E-9CF1-9F491EF8772F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PasswordValidation", "PasswordValidation\PasswordValidation.csproj", "{F700728D-9624-4059-AA23-024B60F3798C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D79770E2-D446-455E-98B4-FBF6AB1AC0D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D79770E2-D446-455E-98B4-FBF6AB1AC0D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D79770E2-D446-455E-98B4-FBF6AB1AC0D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D79770E2-D446-455E-98B4-FBF6AB1AC0D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80E78B65-3E51-4B5E-9CF1-9F491EF8772F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80E78B65-3E51-4B5E-9CF1-9F491EF8772F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80E78B65-3E51-4B5E-9CF1-9F491EF8772F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80E78B65-3E51-4B5E-9CF1-9F491EF8772F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F700728D-9624-4059-AA23-024B60F3798C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F700728D-9624-4059-AA23-024B60F3798C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F700728D-9624-4059-AA23-024B60F3798C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F700728D-9624-4059-AA23-024B60F3798C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
