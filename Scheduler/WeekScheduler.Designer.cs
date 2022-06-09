@@ -48,7 +48,7 @@ namespace Scheduler
             this.calendar1.AutoScroll = true;
             this.calendar1.Location = new System.Drawing.Point(24, 89);
             this.calendar1.Name = "calendar1";
-            this.calendar1.Size = new System.Drawing.Size(813, 460);
+            this.calendar1.Size = new System.Drawing.Size(790, 460);
             this.calendar1.TabIndex = 0;
             // 
             // textBox1

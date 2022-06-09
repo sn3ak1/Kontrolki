@@ -2,7 +2,7 @@
 
 namespace Scheduler
 {
-    partial class Calendar
+    sealed partial class Calendar
     {
         /// <summary> 
         /// Required designer variable.

@@ -3,7 +3,7 @@ using System.Windows.Forms;
 
 namespace Scheduler
 {
-    internal partial class Calendar : UserControl
+    internal sealed partial class Calendar : UserControl
     {
         private const int RowCount = 28;
         private const int ColumnCount = 7;
@@ -30,8 +30,8 @@ namespace Scheduler
             
             TlpMain.ColumnCount = ColumnCount;
             TlpMain.RowCount = RowCount;
-            TlpMain.Height = RowCount * RowHeight;
-            TlpMain.Width = ColumnCount * RowWidth;
+            TlpMain.Height = RowCount * RowHeight+15;
+            TlpMain.Width = ColumnCount * RowWidth +12;
             TlpMain.Top = 40;
             TlpMain.Left = 60;
             
@@ -65,7 +65,7 @@ namespace Scheduler
             tlpDays.ColumnCount = ColumnCount;
             tlpDays.RowCount = 1;
             tlpDays.Height = RowHeight;
-            tlpDays.Width = 7 * RowWidth;
+            tlpDays.Width = 7 * RowWidth+12;
             tlpDays.Top = 10;
             tlpDays.Left = 60;
             
@@ -95,7 +95,7 @@ namespace Scheduler
             
             tlpHours.ColumnCount = 1;
             tlpHours.RowCount = RowCount-1;
-            tlpHours.Height = RowCount*RowHeight;
+            tlpHours.Height = RowCount*RowHeight+15;
             tlpHours.Width = 60;
             tlpHours.Top = 40;
             tlpHours.Left = 10;
