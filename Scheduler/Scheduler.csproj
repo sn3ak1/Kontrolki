@@ -60,6 +60,7 @@
         <Compile Include="WeekScheduler.Designer.cs">
           <DependentUpon>WeekScheduler.cs</DependentUpon>
         </Compile>
+        <Compile Include="WeekSchedulerController.cs" />
     </ItemGroup>
     <ItemGroup>
       <EmbeddedResource Include="WeekScheduler.resx">

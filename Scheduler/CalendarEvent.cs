@@ -14,5 +14,20 @@ namespace Scheduler
         public int Duration { get; set; }
         
         public DateTime DateTime { get; set; }
+
+        public CalendarEvent()
+        {
+        }
+
+        public CalendarEvent(CalendarEvent calendarEvent)
+        {
+            if (calendarEvent == null) return;
+            Name = calendarEvent.Name;
+            Row = calendarEvent.Row;
+            Col = calendarEvent.Col;
+            Color = calendarEvent.Color;
+            Duration = calendarEvent.Duration;
+            DateTime = calendarEvent.DateTime;
+        }
     }
 }

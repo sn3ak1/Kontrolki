@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Drawing;
 using System.Windows.Forms;
 
 namespace Scheduler
@@ -52,6 +53,7 @@ namespace Scheduler
                 var i2 = i;
                 button.Click += (o,e)=>
                     SlotClicked?.Invoke(this, new CalendarEventArgs(i2/ColumnCount, i2%ColumnCount));
+                button.BackColor = Color.White;
                 TlpMain.Controls.Add(button);
             }
             
